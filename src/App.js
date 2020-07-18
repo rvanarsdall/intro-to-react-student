@@ -1,11 +1,11 @@
 import React from "react";
-import Presidents from "./PassingProps/GeneratingList/Presidents";
-import Navbar from "./NavBar/Navbar";
+import ParentComponent from "./PassingProps/ParentComponent";
 
 function App() {
   return (
-    <div>
-      <Navbar />
+    <div style={{ textAlign: "center" }}>
+      <p>Testing the App.js file</p>
+      <ParentComponent />
     </div>
   );
 }
